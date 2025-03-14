@@ -1,0 +1,3 @@
+﻿tiktoken
+ttkthemes
+requests

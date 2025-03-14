@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "count_token_llms"
+version = "0.1.0"
+description = "count token llms with tkinter application tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+
+[project.scripts]
+count_token_llms = "main:main"
