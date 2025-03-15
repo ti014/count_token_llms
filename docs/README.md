@@ -37,6 +37,10 @@ This project provides a simple yet powerful graphical user interface (GUI) for c
 
 ```
 count_token_llms/
+├── docs/
+│   │   ├── README.md                 # This file
+│   │   └── INSTALL.md
+│   │   └── USAGE.md
 ├── src/
 │   ├── gui/
 │   │   ├── __init__.py
@@ -48,11 +52,11 @@ count_token_llms/
 │   │   ├── __init__.py
 │   │   └── token_counter_logic.py  # Handles communication between GUI and token counting
 │   └── utils/
-│       ├── __init__.py
-│       └── token_counter.py     # Core token counting logic using tiktoken
-├── main.py          # File run  
+│   │   ├── __init__.py
+│   │   └── token_counter.py     # Core token counting logic using tiktoken
+│   ├── main.py          # File run  
 ├── requirements.txt          # Project dependencies
-└── README.md                 # This file
+
 ```
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request.
